@@ -125,7 +125,8 @@ public class DataUtil {
         RightVo rightVo = new RightVo();
         rightVo.setId(id);
         rightVo.setTitle(title);
-        rightVo.setImage(image);
+        //rightVo.setImage(image);
+        rightVo.setImage("https://img.ivsky.com/img/tupian/pre/201912/29/baby-005.jpg");
         rightVo.setItemType(RightAdapter.CONTENT);
         rightVo.setFakePosition(fakePosition);      //这里加上是为了扩大响应范围
         return rightVo;
